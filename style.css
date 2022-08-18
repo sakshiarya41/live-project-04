@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .navbar-container div img{
+    margin:30px 70px;
+    height: 40px;
+    width: 100px;
+  }
+  
+  .grow-list{
+    position: relative;
+    left:25%;
+    top:-60px;
+    padding: 0%;
+    width:600px;
+  }
+  
+  .list-item{
+    display:inline;
+    font-size: 15px ;
+    font-family: Poppins;
+    font-weight: 500;
+    padding: 0 20px;
+    color:darkgray;
+  }
+
+  .list li:first-child{
+    color:black;
+    font-weight: bold;
+  }
+  
+  .nav-button{
+    position: relative;
+    float:right;
+    margin-right: 150px;
+    top:-80px;
+    padding: 8px 18px;
+    font-size: 15px;
+    color:white;
+    background-color:#4242c7;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .banner-container{
+    position: relative;
+  }
+
+  h1.heading-text{
+    margin-top:40px;
+    margin-left:100px;
+    font-family: Poppins;
+    font-size: 60px;
+    width:400px;
+    color:rgb(10, 34, 80);
+    font-weight:600;
+  }
+
+  h1.heading-text span{
+    color:blueviolet
+  }
+
+  p.description{
+    margin-left:100px;
+    margin-top: 20px;
+    font-family: Poppins;
+    font-size: 15px;
+    width:350px;
+    color:darkgray;
+  }
+
+
+  .btn{
+    position: absolute;
+    left:10%;
+    top: 120%;
+    padding: 15px 35px;
+    font-size: 15px;
+    color:white;
+    background-color:#4242c7;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .banner-container div img{
+    position: absolute;
+    right:50px;
+    top:-70px;
+    width:50%;
+  }
